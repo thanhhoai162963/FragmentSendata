@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/containerbottom"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7CB342"
+    tools:context=".IOSFragment">
+    <TextView
+        android:id="@+id/txtReceive"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:text="Receive data" />
+
+</RelativeLayout>
